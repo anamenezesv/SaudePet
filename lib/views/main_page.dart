@@ -146,4 +146,20 @@ class MainPage extends StatelessWidget {
       fontSize: 16.0,
     );
   }
+
+//   void sendDataToFirebase() {
+//     String horario = _horarioController.text;
+//     String quantidade = _quantidadeController.text;
+
+//     // Reference to the Firebase database
+//     DatabaseReference databaseReference = FirebaseDatabase.instance.reference();
+
+//     // Push a new node with the entered values
+//     databaseReference.child("alimentador").push().set({
+//       "horario": horario,
+//       "quantidade": quantidade,
+//     });
+
+//     print('Data sent to Firebase: Horário - $horario, Quantidade - $quantidade');
+//   }
 }
